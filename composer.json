@@ -1,0 +1,31 @@
+{
+   "name":"contal/formatter",
+   "description": "A library for formatting php code",
+	"type":"library",
+   "license": "GPLv3",
+   "authors":[
+      {
+         "name":"Contal",
+         "email":"contacto@contal.cl"
+      }
+   ],
+   "require":{
+      "php":">=7.0",
+      "ext-tokenizer":"*"
+   },
+	"require-dev":{
+      "phpunit/php-code-coverage":"^2.0",
+      "symfony/console":"^3.0"
+   },
+   "autoload":{
+      "psr-4":{
+         "Contal\\":"src/"
+      },
+      "psr-0":{
+         "Contal\\":"src/"
+      },
+      "classmap":[
+         "src/"
+      ]
+   }
+}
